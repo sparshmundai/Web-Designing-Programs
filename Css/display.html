@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+label{
+display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover label {
+  display: block;
+}
+
+.inline{
+	display: inline;
+	background-color: green;
+	width: 50px;
+	height: 100px;
+}
+.inline-block{
+	display: inline-block;
+	background-color: green;
+	width: 50px;
+	height: 100px;
+}
+.block{
+	display:block; 
+	background-color: green;
+	width: 50px;
+	height: 100px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="hhh">Hover over me to show the p element
+  <label>Tada! Here I am!</label>
+</div>
+
+<div>
+	<p>Lorem ipsum dolor sit amet <span class="inline">consectetur</span> adipisicing elit. Quam facere odio, eos nulla provident, illo accusamus</p>
+</div>
+
+<div >
+	<p>Lorem ipsum dolor sit <span class="inline-block">amet</span> consectetur adipisicing elit. Quam <span class="inline-block">facere</span> odio, eos nulla provident, illo accusamus</p>
+</div>
+
+<div >
+	<p>Lorem ipsum dolor sit <span class="block">amet consectetur</span> adipisicing elit. Quam facere odio, eos nulla provident, illo accusamus</p>
+</div>
+</body>
+</html>

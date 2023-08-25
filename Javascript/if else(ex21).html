@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>If else</title>
+</head>
+<body>
+	<button onclick="myh()">Click</button>
+	<p id="hello"></p>
+
+	<script>
+		function myh(){
+		var hour= prompt("Enter Time with pm");
+		var gree;
+		if (hour>'4pm') {
+			gree="Good Day";
+		}else{
+			gree="Early Good Evening";
+		}
+		document.getElementById('hello').innerHTML=gree;
+		}
+	</script>
+</body>
+</html>

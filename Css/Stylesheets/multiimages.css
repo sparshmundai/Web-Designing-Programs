@@ -1,0 +1,15 @@
+body {
+	background-image: 
+	url(../Background/birds.jpg),
+	url(../Background/beautious.jpg),
+	url(../Background/beautifull.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-position: 
+						0px 0px, 
+						800px 0px, 
+						400px 0px;
+	}
+/*size mei pehle   width and then height*/
+
+/*position x then y        and   o isliye hei coz voh starting mei rhe and  2nd wali isliye 430 hei kukii voh aage jjaye and 3 bhi esse hi hei ki x axis mei aage bde*/

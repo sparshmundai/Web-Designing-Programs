@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Table</title>
+	<link rel="icon" type="icon/image" href="Html/Favicons/mario.png">
+	<style type="text/css">
+		body{
+			background-color: rgba(250, 250, 250, 0.2);
+		}
+		#hey{
+			margin: 50px auto;
+		}
+		#hey,th,td{
+			border:  2px solid rgb(180, 180, 180);
+			border-collapse: collapse;
+			text-align: center;
+		}
+		.er{
+			width: 150px;
+		}
+		.widow{
+			width: 230px;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Mr Sahil Your table is completed</h1>
+	<table id="hey">
+		<!-- table row 1 -->
+		<tr>
+			<th>Name</th>
+			<th>Age
+				<table>
+					<tr>
+						<th class="widow">Married or Unmarried</th>
+					</tr>
+				</table>
+			</th>
+			<th>Height</th>
+		</tr>
+		<!-- table row 2 -->
+		<tr>
+			<td>Sahil</td>
+			<td>21
+				<table>
+					<tr>
+					<td rowspan="3">Information</td>
+					<td class="er" colspan="2">Married</td>
+					<tr>
+
+						<tr>
+							<td>1</td>
+							<td>2</td>
+						</tr>
+
+				</table>
+			</td>
+			<td>168cm</td>
+		</tr>
+		<!-- table row 3 -->
+		<tr>
+			<td>Rohit</td>
+			<td>22
+				<table>
+					<tr>
+					<td rowspan="2">information</td>
+					<td class="er">Unmarried</td>
+					</tr>
+					<tr>
+						<td>2</td>
+					</tr>
+
+				</table>
+			</td>
+			<td>165cm</td>
+		</tr>
+		<!-- table row 4 -->
+		<tr>
+			<td>Jeevan</td>
+			<td>23
+			<table>
+				<tr>
+					<td class="er">Married</td>
+					<td rowspan="2">Information<br>Out</td>
+				</tr>
+				<tr>
+					<td>3</td>
+				</tr>
+				</table>
+			</td>
+			<td>!70cm</td>
+		</tr>
+	</table>
+</body>
+</html>

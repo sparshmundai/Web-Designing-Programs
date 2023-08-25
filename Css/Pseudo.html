@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pseudo Elements</title>
+	<style type="text/css">
+		div p:first-child{
+			color: red;
+		}
+
+		div p:nth-child(6){
+			color: yellow;
+		}
+
+
+ 
+ 	li:nth-child(4){
+ 		color: green;
+ 	}
+	</style>
+</head>
+<body>
+	<div>
+		<p>First Para</p>
+		<p>Second Para</p>
+		<p>Third Para</p>
+		<p>Fourth Para</p>
+		<p>Fifth Para</p>
+		<p>Sixth Para</p>
+		<p>Seventh Para</p>
+		<p>Eighth Para</p>
+		<p>Ninth Para</p>
+	</div>
+
+	<ul>
+		<li>1st</li>
+		<li>2nd</li>
+		<li>3rd
+			<ul>
+				<li>a</li>
+				<li>b</li>
+				<li>c</li>
+			</ul></li>
+		<li>4th</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		.parent  li{
+			color: yellowgreen;
+		}
+
+		.parent > li{
+			color: red;
+		}
+
+		#parent{
+			border: 2px solid grey;
+		}
+
+		#children{
+			border: 2px dashed lightcoral;
+			padding: 5px;
+			margin: 8px;
+		}
+
+		#parent > p{
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<ul class="parent">
+		<li>First</li>
+		<li>second</li>
+		<li>Third
+			<ol>
+				<li> Part One</li>
+				<li> Part Two</li>
+			</ol>
+		</li>
+		<li>Forth</li>
+	</ul>
+<!-- ---------------------------------------------------------- -->
+<div id="parent">
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, nam?</p>
+	<div id="children">
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Modi placeat delectus, soluta.</p>
+	</div>
+</div>
+</body>
+</html>

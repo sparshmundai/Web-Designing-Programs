@@ -1,0 +1,15 @@
+body{
+	background-image: url(../Background/sunrise.jpg);
+	background-color: grey;
+	background-repeat: no-repeat;
+	background-size: 1250px 600px;
+	
+	/* background-attachment: scroll; */
+	background-attachment: fixed;
+
+}
+
+p {
+	font-family: arial;
+	font-size: 50px;
+}

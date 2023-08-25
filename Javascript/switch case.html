@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Switch Case</title>
+	</head>
+	<body>
+		<script>
+
+			var date=88;
+
+			switch(date){
+				case 1: case 8: case 15: case 22: case 29:
+				document.write("Today is Sunday");
+			break;
+
+				case 2: case 9: case 16: case 23: case 30:
+				document.write("Today is Monday");
+			break;
+
+			case 3: case 10: case 17: case 24: case 31: 
+				document.write("Today is Tuesday");
+			break;
+
+			case 4: case 11: case 18: case 25: 
+				document.write("Today is Wednesday");
+			break;
+
+			case 5: case 12: case 19: case 26:
+				document.write("Today is Thursday");
+			break;
+
+			case 6: case 13: case 20: case 27:
+				document.write("Today is Friday")
+			break;
+
+			case 7: case 14: case 21: case 28:
+			document.write("Today is Sunday");
+			break;
+
+			default:
+			document.write("Enter Valid date");
+		}
+
+		document.write("<br> <br> <br>");
+
+		// Comparison switch
+
+		var a=34;
+
+		switch(false){
+			case (a>=15 && a<=23):
+			document.write("You are eligible")
+			break;
+
+			case(a>23 && a<30):
+			document.write("You are not eligible")
+			break;
+
+			default:
+			document.write("Enter The valid age")
+
+
+		document.write("<br> <br> <br>");
+		}
+
+
+
+
+		</script>
+	</body>
+</html>

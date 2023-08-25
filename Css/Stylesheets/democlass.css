@@ -1,0 +1,34 @@
+body {	background-image: url(../Background/haathi.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;}
+
+.demoid{
+	width: 1000px;
+	height: 300px;
+	margin: 100px auto;
+	color:white;
+	border:4px dashed black;
+	border-radius: 30px;
+
+	/* IMAGES IN A COLUMN*/
+	/*background-image: url(../Background/parrot.jpg);*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/;
+
+	/*fOR ROUND AND SPACE IN RADIUS*/
+	background-image: url(../Favicon/star--v1.png);
+	/*background-repeat: round;*/
+	background-repeat: space;
+}
+
+
+/*float means direction left or yha right*/
+.demoid p{
+	float: left;
+	text-shadow: 4px 4px 4px blue;
+}
+
+.demoid h1{
+	text-align: center;
+	text-shadow: 3px 3px 3px grey;
+}

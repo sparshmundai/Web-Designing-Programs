@@ -1,0 +1,36 @@
+body {	background-image: url(../Background/haathi.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;}
+
+.demoid{
+	width: 1300px;
+	height: 700px;
+	margin: 100px auto;
+	color:white;
+	border:20px dashed green;
+	border-radius: 30px;
+	background-image: url(../Background/Images/vshapehome.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+	padding: 30px;
+	
+	/* background-origin: border-box; */
+	background-origin: padding-box;
+	/* background-origin: content-box; */
+	/* Content box ke liye padding dena compulsary hota hei */
+
+}
+
+
+/*float means direction left or yha right*/
+.demoid p{
+	float: left;
+	text-shadow: 4px 4px 4px blue;
+}
+
+.demoid h1{
+	text-align: center;
+	text-shadow: 3px 3px 3px grey;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Box Model</title>
+	<link  href="fav/qq.png">
+	<style type="text/css">
+
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		h2{
+			text-align: center;
+			font-family: forte;
+		}
+
+		.Parent1{
+			width: 300px;
+			height: 200px;
+			border: 10px solid vi;
+			margin: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.child1{
+			width: 100%;
+			border: 10px groove yellow;
+			padding: 20px;
+			box-sizing: content-box;
+		}
+
+		.Parent2{
+			width: 300px;
+			height: 200px;
+			border-width: 10px;
+			border-style: solid;
+			border-color: green blue red aqua;
+			margin: 40px auto;
+			/* margin-top: 40px; */
+		}
+
+		.child2{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			border: 10px groove yellow;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+
+		.child3{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			border: 10px groove yellow;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+
+		.Parent3{
+			overflow: auto;
+			width: 600px;
+			height: 200px;
+			border-width: 10px;
+			border-style: solid;
+			border-color: orange aqua blue purple;
+			margin: 60px auto;
+			/* margin-top: 40px; */
+		}
+
+		.child33{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			border: 10px groove yellow;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+		.child333{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			/* border: 10px groove yellow; */
+			border-width: 10px;
+			border-style: solid;
+			border-color: inherit ;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+		.child334{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			border: 10px groove yellow;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+		.child335{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			border: 10px groove yellow;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+		.child336{
+			width: 100%;
+			height: 40%;
+			overflow: auto;
+			border: 10px groove yellow;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- Div1 -->
+	<div class="Parent1">
+		<h1>div1</h1>
+		<h2>Parent</h2>
+		<div class="child1">
+			<h3>Child</h3>
+		</div>
+	</div>
+
+	<!-- Div2 -->
+	<div class="Parent2">
+		<h2>Parent</h2>
+		<div class="child2">
+			<h3>child1</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellendus laboriosam temporibus quos beatae! Repudiandae consequatur impedit velit debitis maiores architecto quam quasi eos, aliquam dignissimos consequuntur officiis nihil nisi!</p>
+		</div>
+		<div class="child3">
+			<h3>child2</h3>
+			<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nisi numquam in dignissimos ipsa neque ipsum laboriosam delectus quibusdam dicta inventore. Eligendi, fuga eum esse deleniti magni, consequuntur possimus ex eius.</p>
+		</div>
+	</div>
+
+	<div class="Parent3">
+		<h2>Parent</h2>
+		<div class="child33">
+			<h3>child1</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repellendus laboriosam temporibus quos beatae! Repudiandae cconsequatur impedit velit debitis maiores architecto quam quasi eos, aliquam dignissimos consequuntur officiis nihil nisi!</p>
+		</div>
+		<div class="child333">
+			<h3>child2</h3>
+			<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nisi numquam in dignissimos ipsa neque ipsum laboriosam delectus quibusdam dicta inventore. Eligendi, fuga eum esse deleniti magni, consequuntur possimus ex eius.</p>
+		</div>
+		<div class="child334">
+			<h3>child3</h3>
+			<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nisi numquam in dignissimos ipsa neque ipsum laboriosam delectus quibusdam dicta inventore. Eligendi, fuga eum esse deleniti magni, consequuntur possimus ex eius.</p>
+		</div>
+		<div class="child335">
+			<h3>child4</h3>
+			<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nisi numquam in dignissimos ipsa neque ipsum laboriosam delectus quibusdam dicta inventore. Eligendi, fuga eum esse deleniti magni, consequuntur possimus ex eius.</p>
+		</div>
+		<div class="child336">
+			<h3>child5</h3>
+			<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Nisi numquam in dignissimos ipsa neque ipsum laboriosam delectus quibusdam dicta inventore. Eligendi, fuga eum esse deleniti magni, consequuntur possimus ex eius.</p>
+		</div>
+	</div>
+</body>
+</html>

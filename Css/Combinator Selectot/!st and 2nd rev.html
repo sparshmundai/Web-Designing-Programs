@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		.parent{
+			border: 2px solid;}
+
+		.child{
+			border: 2px dashed;
+			margin: 4px;}
+
+		.parent  p span{
+			color: red;}
+
+		.child p span{
+			color: green;}
+
+			.list1 li{
+				color: red;
+			}
+
+			.list1 > li{
+				color: orange;
+			}
+
+
+
+
+			.prent > p{
+				color: green;
+			}
+
+
+	</style>
+</head>
+<body>
+	<div class="parent">
+
+		<h1>Check The Descendent Selector</h1>
+
+		<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Numquam nulla pariatur earum culpa sint laborum placeat quis fugiat suscipit dolorum.<span>beacuse lorem is smart in this html</span></p>
+
+		<p>Or kiddaa veere</p>
+
+		<br>
+
+		<div class="child">
+		
+		<p>Child==Lorem ipsum dolor <span>sit</span> amet consectetur.</p>
+		
+		</div>
+	
+	</div>
+	<!-- ------------------------------------------------------------------------------------------- -->
+	
+	<h1>Direct Child Practic </h1>
+	
+	<h2>List</h2>
+	<ul class="list1" >
+		<li>111111</li>
+		<li>222222</li>
+		<li>333333
+			<ol type="A">
+				<li>333.11111</li>
+				<li>333.22222</li>
+			</ol>
+		</li>
+		<li>4444444</li>
+		<li>5555555</li>
+	</ul>
+
+	<h2>Div</h2>
+	<div class="prent">
+		<p>Lorem1</p>
+		<div class="crent">
+			<p>lorem2(Child)</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Positioning</title>
+	<style type="text/css">
+
+	.tr{
+		background-color: black;
+		color: white;
+		display: inline-block;
+		position: sticky;
+		top: 0;
+	}
+
+
+	.parent{
+		height: 30vh;
+		width: 60vw;
+		border: 20px solid grey;
+		text-align: center;
+		position: relative;
+	}
+	.child{
+		height: 10vh;
+		width: 10vw;
+		border: 8px solid red;
+		position: absolute;
+	}
+
+	.child2{
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+
+
+	.fixaa{
+		/* font-variant: small-caps;
+		font-size: 20px;
+		font-weight: 900;
+		word-spacing: 4px;
+		padding: 6px; */
+
+		background-color: royalblue;
+		width: auto;
+		height: auto;
+		
+		position: fixed;
+		bottom: 50px;
+		right: 6px;
+		opacity: 0.6;
+		text-decoration: none;
+	
+	}
+
+	.fixaa{
+		color: yellow;
+	}
+
+	a.fixaa:hover{
+		background-color: grey;
+		opacity: 0.8;
+	}
+
+
+	</style>
+</head>
+<body>
+	
+	<header>
+		<div class="tr">
+		<a href="">Home</a>
+		<a href="">About</a>
+		<a href="">Contact</a>
+		</div>
+	</header>
+
+	<div class="parent">
+		<h2>Parent</h2>
+		<img class="child2" src="Favicon/diamo.png">
+		<div class="child">
+			<h2>Child</h2>
+		</div>
+	</div>
+
+
+	<a href="https://www.youtube.com" class="fixaa">Contact Us&copy;</a>
+	
+
+</body>
+</html>

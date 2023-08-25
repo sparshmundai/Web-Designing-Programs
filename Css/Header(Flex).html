@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="img/png" href="https://img.icons8.com/office/2x/superman.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<title>Flex Box</title>
+		<style type="text/css">
+
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		header{
+				background-color: #7B7373;
+			}
+
+		nav ul li{
+			list-style-type:none ;
+		}
+
+		nav ul li a{
+			color: white;
+			padding: 10px;
+			margin: 20px;
+			text-decoration: none;
+		}
+
+		nav ul{
+			padding: 10px;
+			flex-wrap: wrap;
+			display: flex;
+    		justify-content: flex-start;
+    		flex-direction: row;
+    		align-items: flex-end;
+		}
+
+		li:hover{
+			padding: 1px;
+			background-color: black;
+			border-radius: 20px;
+		}
+
+		img{
+			width: 70px;
+			height: 50px;
+		}
+
+
+		div{
+			border: 10px dashed #5B595B ;
+			overflow:auto;
+			/* overflow-x:  scroll; */
+			/* overflow-y: hidden; */
+			/* margin: 50px auto */
+			/* box-shadow: 30px 30px 10px grey; */
+			border-color: red green yellow blue;
+		}
+
+		body{
+				background-color: rgba(80, 80, 80, 0.3);
+			}
+			table{
+				margin: 90px auto;
+				border-collapse: collapse;
+				text-align: left;
+			}
+			th, td{
+				border: 2px solid #E5E2E2;
+			}
+			th,td{
+				padding: 5px;
+			}
+			th{
+				background-color: #29316E;
+				color: white;
+			}
+			td{
+				background-color: #E5E2E2;
+			}
+			caption{
+				color: black;
+				line-height: 50px;
+				letter-spacing: 42px;
+				font-size: 25px;
+				font-weight: 900;
+				font-family: 'Pacifico', cursive;
+				/* font-family: 'Sigmar One', cursive; */
+			}
+
+		</style>
+	</head>
+	<body>
+	<header>
+		<nav>
+			<ul>
+				<img src="https://img.icons8.com/office/2x/day-of-the-tentacle.png" alt="Icon(Please Check Your Network Connection )" title="Hello Eveyone !">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Content</a></li>
+				<li><a href="#">Text</a></li>
+				<li><a href="#">Advertisement</a></li>
+				<li><a href="#">Investment</a></li>
+				<li><a href="#">Advice</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div>
+		<table>
+			<caption>NIELIT</caption>
+			<tr>
+				<th>Company</th>
+				<th>Preprocessor</th>
+				<th>Prefixing</th>
+				<th>#Source<br>Files</th>
+				<th>#<br>Selectors</th>
+				<th>Style<br>enforcement</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td><a href="https://github.com">Github</a></td>
+				<td>SCSS</td>
+				<td>Custom@mixins</td>
+				<td>100+</td>
+				<td>7,000</td>
+				<td>SCSS_lint,<br><a href="">styleguide</a></td>
+				<td>2 final stylesheets,beacuse of IE selector limit</td>
+			</tr>
+			<tr>
+				<td><a href="https://buffer.com">Buffer</a></td>
+				<td>LESS</td>
+				<td>Autoprefixer</td>
+				<td>93</td>
+				<td>5328</td>
+				<td>LESS limit</td>
+				<td>2 final stylesheets</td>
+			</tr>
+			<tr>
+				<td><a href="https://codepen.io">CodePen</a></td>
+				<td>SCSS</td>
+				<td>Autoprefixer</td>
+				<td>171</td>
+				<td>1181</td>
+				<td>.editorconfig</td>
+				<td>Asset pipeline</td>
+			</tr>
+			<tr>
+				<td><a href="https://ghost.org">Ghost</a></td>
+				<td>SCSS(libass)</td>
+				<td>Autoprefixer</td>
+				<td>36</td>
+				<td>1609</td>
+				<td>General<br><a href="">guidelines</a></td>
+				<td>Open source</td>
+			</tr>
+			<tr>
+				<td><a href="https://www.groupon.com">Groupon</a></td>
+				<td>Sass(syntax unclear)</td>
+				<td>Compass</td>
+				<td>?</td>
+				<td>?</td>
+				<td>SMACSS</td>
+				<td><a href="">Toolstrap</a></td>
+			</tr>
+			<tr>
+				<td><a href="https://www.lonelyplanet.com">Lonely Planet</a></td>
+				<td>Sass</td>
+				<td>Autoprefixer</td>
+				<td>150+</td>
+				<td>1527</td>
+				<td><a href="">Rizzo</a>,no<br> linting</td>
+				<td>BEM / OOCSS,Normalize.css,Svg icons</td>
+			</tr>
+			<tr>
+				<td><a href="https://medium.com">Medium</a></td>
+				<td>LESS</td>
+				<td>Custom @mixins</td>
+				<td>?</td>
+				<td>?</td>
+				<td><a href="">Guidelines</a></td>
+				<td>No nesting,custom methodology for naming</td>
+			</tr>
+		</table>
+	</div>
+	</body>
+</html>

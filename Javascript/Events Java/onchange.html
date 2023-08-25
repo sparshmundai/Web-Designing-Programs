@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>On Change</title>
+</head>
+<body id="colorr">
+
+	<select onchange="change(this.value)">
+		<option value="red">Red</option>
+		<option value="green">Green</option>
+		<option value="yellow">Yellow</option>
+	</select>
+
+	<script>
+		function change(color){
+			document.getElementById('colorr').style.background=color;
+			// alert(color);
+		}
+	</script>
+</body>
+</html>

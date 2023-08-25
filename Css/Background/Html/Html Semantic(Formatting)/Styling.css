@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: #27D3F8;
+	height: 180px;
+	text-align: center;
+}
+
+h1{
+	padding: 10px;
+	word-spacing: 10px;
+	font-size: 50px;
+	margin-bottom: 20px;
+	cursor: no-drop;
+}
+
+nav a{
+	text-decoration: none;
+	letter-spacing: 2px;
+	margin: 70px;
+	font-size: 20px;
+	display: inline;
+}
+
+a:visited {color: blue;}
+a:active {color: red;}
+a:link {color: blue;}
+a:hover {color: white;}
+
+main{
+	background-color: #CDC4C4;
+	/* float: left; */
+}
+
+.img1{
+	width: 400px;
+	height: 200px;
+	box-shadow: 20px 15px 6px grey;
+}
+ /* aside{
+	float: right;
+		background-color: red; */
+
+
+footer{
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+	background-color: #27D3F8 ;
+}

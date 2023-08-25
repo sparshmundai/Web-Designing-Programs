@@ -1,0 +1,28 @@
+h1 {
+	background-color: #000000;
+	color: #ffffff;
+	border:2px solid red;
+	text-align: center;
+}
+
+h2 {
+	color:rgb(80,80,80);
+	background-color:rgb(0,255,0);
+	border:4px solid black;
+	text-align:center;   
+}
+
+h3 {
+	color:red;
+	background-color:rgba(0,255,0,.3);
+	border:4px solid black;
+	text-align:center;   
+}
+
+/*For Using rgba alpha we want to add body background color*/
+/*rgba a= o to 1*/
+/*like 0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1*/
+
+body {
+	background-color: yellow; 
+}

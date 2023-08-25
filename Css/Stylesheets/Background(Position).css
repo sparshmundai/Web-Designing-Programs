@@ -1,0 +1,8 @@
+body {
+	background-image:
+		url("../Background/birds.jpg"), 
+		url("../Background/create.jpg");
+	background-repeat: no-repeat;
+	background-position:0px 0px ,620px 0px;  	
+	background-size: 50% ;
+}

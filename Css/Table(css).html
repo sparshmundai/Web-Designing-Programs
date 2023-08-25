@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="img/png" href="https://image.flaticon.com/icons/png/128/3602/3602109.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<title>Table With Css</title>
+		<!-- Internal CSS(Starts From Here) -->
+		<style type="text/css">
+			tr:hover{
+				background-color: yellowgreen;
+			}
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				background-color: rgba(80, 80, 80, 0.3);
+			}
+			table{
+				margin: 100px auto;
+				border-collapse: collapse;
+				text-align: left;
+			}
+			th, td{
+				border: 2px solid #E5E2E2;
+			}
+			th,td{
+				padding: 5px;
+			}
+			th{
+				background-color: #29316E;
+				color: white;
+			}
+			td{
+				background-color: #E5E2E2;
+			}
+			caption{
+				color: black;
+				letter-spacing: 14px;
+				font-size: 25px;
+				font-weight: 900;
+				line-height: 50px;
+				font-family: 'Pacifico', cursive;
+				/* font-family: 'Sigmar One', cursive; */
+			}
+		</style>
+		<!-- Internal Css(Ends here) -->
+	</head>
+	<body>
+		<table>
+			<caption>NIELIT</caption>
+			<!-- Row1 -->
+			<tr>
+				<th>S.No.</th>
+				<th>Company</th>
+				<th>Preprocessor</th>
+				<th>Prefixing</th>
+				<th>#Source<br>Files</th>
+				<th>#<br>Selectors</th>
+				<th>Style<br>enforcement</th>
+				<th>Notes</th>
+			</tr>
+			<!-- Row2 -->
+			<tr>
+				<td>1</td>
+				<td><a href="https://github.com">Github</a></td>
+				<td>SCSS</td>
+				<td>Custom@mixins</td>
+				<td>100+</td>
+				<td>7,000</td>
+				<td>SCSS_lint,<br><a href="">styleguide</a></td>
+				<td>2 final stylesheets,beacuse of IE selector limit</td>
+			</tr>
+			<!-- Row3 -->
+			<tr>
+				<td>2</td>
+				<td><a href="https://buffer.com">Buffer</a></td>
+				<td>LESS</td>
+				<td>Autoprefixer</td>
+				<td>93</td>
+				<td>5328</td>
+				<td>LESS limit</td>
+				<td>2 final stylesheets</td>
+			</tr>
+			<!-- Row4 -->
+			<tr>
+				<td>3</td>
+				<td><a href="https://codepen.io">CodePen</a></td>
+				<td>SCSS</td>
+				<td>Autoprefixer</td>
+				<td>171</td>
+				<td>1181</td>
+				<td>.editorconfig</td>
+				<td>Asset pipeline</td>
+			</tr>
+			<!-- Row5 -->
+			<tr>
+				<td>4</td>
+				<td><a href="https://ghost.org">Ghost</a></td>
+				<td>SCSS(libass)</td>
+				<td>Autoprefixer</td>
+				<td>36</td>
+				<td>1609</td>
+				<td>General<br><a href="">guidelines</a></td>
+				<td>Open source</td>
+			</tr>
+			<!-- Row6 -->
+			<tr>
+				<td>5</td>
+				<td><a href="https://www.groupon.com">Groupon</a></td>
+				<td>Sass(syntax unclear)</td>
+				<td>Compass</td>
+				<td>?</td>
+				<td>?</td>
+				<td>SMACSS</td>
+				<td><a href="">Toolstrap</a></td>
+			</tr>
+			<!-- Row7 -->
+			<tr>
+				<td>6</td>
+				<td><a href="https://www.lonelyplanet.com">Lonely Planet</a></td>
+				<td>Sass</td>
+				<td>Autoprefixer</td>
+				<td>150+</td>
+				<td>1527</td>
+				<td><a href="">Rizzo</a>,no<br> linting</td>
+				<td>BEM / OOCSS,Normalize.css,Svg icons</td>
+			</tr>
+			<!-- Row8 -->
+			<tr>
+				<td>7</td>
+				<td><a href="https://medium.com">Medium</a></td>
+				<td>LESS</td>
+				<td>Custom @mixins</td>
+				<td>?</td>
+				<td>?</td>
+				<td><a href="">Guidelines</a></td>
+				<td>No nesting,custom methodology for naming</td>
+			</tr>
+		</table>
+	</body>
+</html>

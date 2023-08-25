@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>If elseif else</title>
+</head>
+<body>
+	<script>
+		var time=prompt('Tell the time');
+		if ( (time>'12:00pm') && (time<'05:00pm') ) {
+			document.write("Good Afternoon");
+		}else if( (time>='05:00pm') && (time<'09:00pm') ){
+			document.write("Good Evening");
+		}else if( (time>='09:00pm') && (time<'12:00pm') ){
+			document.write("Good Night");
+		}else if( (time>='12:00am') && (time<'05:00am') ){
+			document.write("Go to the sleep fast");
+		}else if( (time>='05:00am') && (time<'11:00am') ){
+			document.write("Good Morning");
+		}else{
+			document.write("Lets Do Breakfast Dear");
+		}
+	</script>
+</body>
+</html>

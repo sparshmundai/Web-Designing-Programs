@@ -1,0 +1,30 @@
+body {	
+		background-image: url(../Background/water.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+.demoid{
+	width: 1000px;
+	height: 300px;
+	margin: 100px auto;
+	padding: 40px;
+	color:white;
+	background-color: rgba(80,80,80,.4);
+	border:22px dotted black;
+	border-radius: 30px;
+
+	/* background-clip: padding-box;  */
+	background-clip: content-box; 
+	/* background-clip: border-box;  */
+}
+
+
+/*float means direction left or yha right*/
+.demoid p{
+	text-shadow: 4px 4px 4px green;	
+		}
+
+.demoid h1{
+	text-align: center;
+}

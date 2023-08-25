@@ -1,0 +1,17 @@
+h1,p {
+	font-size: 30px;
+	color: white;
+}
+
+
+#bxxx{
+	height:500px;
+	width:900px;
+	margin: 50px auto;
+	border: 8px dotted black;
+	border-radius: 30px;
+	background-image: url(../Background/cheetah.jpg);
+	background-repeat: no-repeat;
+	overflow: auto;
+	background-attachment: local;
+}
